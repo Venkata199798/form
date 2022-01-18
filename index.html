@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <fieldset class="set">
+            <legend class="legend">This is my form</legend>
+            <table>
+                <tr>
+                    <td><label  for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" class="bg-ground"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">password:</label></td>
+                    <td><input type="password" id="password" name="password" class="bg-ground"></td>
+                </tr>
+                <tr>
+                    <td><label for="cpassword">Confirm password:</label></td>
+                    <td><input type="password" id="cpassword" name="password" class="bg-ground"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="upload">Upload Your Picture:</label></td>
+                    <td><input type="text" id="upload" name="picture" class="bg-ground"><button>Browse</button></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" id="mradio" name="Gender" value="Male"> <label for="mradio">Male</label>
+                        <input type="radio" name="Gender" value="female" id="fradio"> <label for="fradio">Female</label>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><label for="country">Select Country:</label></td>
+                    <td>
+                        <select id="country" class="bg-ground">
+                            <option>United kingdom</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="check">Hobby:</label></td>
+                    <td><input type="checkbox" id="check" name="check">Cricket <input type="checkbox" id="check"
+                            name="check">Football</td>
+
+                </tr>
+                <tr>
+                    <td><label for="area">Address:</label></td>
+                    <td><textarea name="area" id="area" rows="4" cols="50" class="bg-ground"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="button"><input type="submit" value="submit" class="bg-ground"></td>
+                </tr>
+            </table>
+
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.label_heading{
+    text-align: right;
+}
+.set{
+    border-color: brown;
+    
+}
+.legend{
+    border-right: 10px;
+    border-style: solid;
+    border-color: brown;
+}
+.bg-ground{
+    background-color: lightgoldenrodyellow;
+}
+.button{
+    text-align: center;
+}
+form{
+    width: 50%;
+    margin: auto;
+}
+table{
+    border-spacing: 10px;
+}
